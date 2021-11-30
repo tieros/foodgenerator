@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div class="title">
+        <div class="primarytitle">
+            <h1>Can't decide what to order or to cook?</h1>
+        </div>
+        <div class="secondarytitle">
+             <h2>Try our food generator!</h2>
+        </div>
+    </div>
+  <!-- <div class="dietcont">
+            <div id="vegan">
+                <button class="primarybutton">Vegan</button>
+                    <div id="vegandrop1">
+                        <button id="vegapp">Appetizer</button>
+                        <button id="veghun">I am super hungry!</button>
+
+                    </div>                       
+                    <div id="vegandrop2">
+                            <div class="veganfoods">
+                                <p id="veganfood">
+                                    {{}}
+                                </p>
+                            </div>
+                        </div>
+            </div>
+            <div class="vegetarian">
+                <button class="primarybutton">Vegeratian</button>
+            </div>
+            <div class="herbivore">
+                <button class="primarybutton">Herbivore</button>
+            </div>
+        </div>
+    </div>-->  
+       
+
+    <div class="gencont">
+        <div class="firstt">
+            <h3>I am ...</h3>
+        </div>
+        <div class="dietcont">     
+            <form id="formname">
+                <div class="vegan">
+                    <label id="vegdietl" for="vegandiet" >
+                        <img id ="veganicon" src="/vegan-food.png" alt="">
+                            Vegan
+                    <input id="vegandiet" type="radio" name="diet" value= "vegan">
+                    </label>
+                </div>
+                <div class="vegetarian">
+                    <label id="veggydietl" for="vegetariandiet">
+                        <img src="/vegetarian.png" alt="" id="veggyicon">
+                            Vegetarian
+                    <input id="vegetariandiet" type="radio" name="diet" value= "vegetarian">
+                    </label>
+                </div>
+                <div class="herbivore">
+                    <label id="herbdietl" for="herbivorediet">
+                        <img src="/vegan-burger.png" alt="" id="herbicon">
+                            Herbivore
+                        <input id="herbivorediet" type="radio" name="diet" value= "herbivore">
+                    </label>                   
+                </div>
+            </form>
+        </div> 
+        <div id="secondform">
+        <div class="firstt">
+            <h3>I want somethinggg ... </h3>
+        </div>
+        <div class="dietcont">
+            <form id="sform">
+                <div class="appetizer">
+                    <label for="appetizer">
+                         <img src="/appetizer.png" alt="" id="appicon">
+                             appetizer
+                    <input id="appetizer" type="radio" name="apporhung" value="appetizer">
+                    </label>
+                </div>
+                <div class="hungry">
+                   <label for="hungry">
+                       <img src="/meal.png" alt="" id="herbicon">
+                        full meal</label>
+                   <input id="hungry" type="radio" name="apporhung" value="hungry"> 
+                </div>
+                
+                
+            </form>
+        </div>
+            
+        </div>
+
+        </div>
+    
+        
+            <div id="outcome">
+                
+            <div class="firstt" id="finaltitle">
+                <h3>Here is our suggestion, go for it</h3>
+            </div>
+            <div id="image-data">
+                <div class="anotherdiv">
+            <img id="i1" src="/vegan-food.png" alt=""> 
+                </div>
+            </div>
+                <p id="finaltext"></p> 
+            </div>
+            <div class="byes">
+                <div id="goodbye">
+                    <button id="refresh">Try Again!</button>
+                </div>
+            </div>
+
+    
+
+<!--     <footer>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer> -->
+  
+</body>
+</html>
