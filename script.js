@@ -97,25 +97,25 @@
  function image_show(){
      var image_data;
      if(start ==1){
-         image_data ="/vegan-food.png";
+         image_data ="vegan-food.png";
      } else if(start==2){
-         image_data ="/vegetarian.png";
+         image_data ="vegetarian.png";
      } else if(start ==3){
-         image_data = "/vegan-burger.png";
+         image_data = "vegan-burger.png";
      } else if (start == 4) {
-         image_data ="/appetizer.png";
+         image_data ="appetizer.png";
      } else if (start === 5) {
-         image_data = "/meal.png";
+         image_data = "meal.png";
      } else if (start == 6){
-         image_data ="/vegan-food.png";
+         image_data ="vegan-food.png";
      } else if(start==7){
-         image_data ="/vegetarian.png";
+         image_data ="vegetarian.png";
      } else if(start ==8){
-         image_data = "/vegan-burger.png";
+         image_data = "vegan-burger.png";
      } else if (start == 9) {
-         image_data ="/appetizer.png";
+         image_data ="appetizer.png";
      } else if (start === 10) {
-         image_data = "/meal.png";
+         image_data = "meal.png";
      } else if (start =11){
          return}
  
